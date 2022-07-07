@@ -1,7 +1,38 @@
 {
-  "users": [],
-  "teachers": [],
-  "students": [],
+  "users": [
+    {
+      "email": "jao@mail.com",
+      "password": "$2a$10$1yCLt3iNVMaoSoRKkQm8W.ZPt1eC7nPGwgsrkA77IrJoHArkHYMHS",
+      "name": "Jão Tirágua",
+      "type": "teacher",
+      "students": [1],
+      "id": 1
+    },
+    {
+      "email": "nina@mail.com",
+      "password": "$2a$10$C0JniLuva7gyIFbWdpLRNurnGocKTJ1UbOWtqG5VC5YLto0ULsT6G",
+      "name": "Nina Silva",
+      "type": "student",
+      "teachers": [1],
+      "id": 2
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Jão Tirágua",
+      "userId": 1,
+      "id": 1,
+      "classes": [1]
+    }
+  ],
+  "students": [
+    {
+      "name": "Nina Silva",
+      "userId": 2,
+      "id": 1,
+      "classes": []
+    }
+  ],
   "classes": [
     {
       "name": "Ballet Class 1º Ano",
