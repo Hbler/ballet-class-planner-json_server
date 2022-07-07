@@ -11,9 +11,10 @@ app.db = router.db;
 const rules = auth.rewriter({
   // permission rules
   users: 600,
+  teachers: 640,
+  students: 640,
   classes: 640,
   exercises: 640,
-  sequences: 640,
 });
 
 app.use(cors());
